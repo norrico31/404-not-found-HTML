@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #8500ff, #5acaff);
+}
+
+#container {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background: url("../img/p404.png") #151729;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+#container .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+#container .content h2 {
+  font-size: 18vw;
+  color: #fff;
+  line-height: 1em;
+}
+
+#container .content h4 {
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #111;
+  background: #fff;
+  font-weight: 300;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#container .content p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#container .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ff0562;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 25px;
+  border-radius: 25px;
+  border-bottom: 4px solid #d00d56;
+}
+/*# sourceMappingURL=404.css.map */
